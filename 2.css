@@ -1,0 +1,62 @@
+.index {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.index a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+body {
+	background-color: #86E7EE;
+}
+.tekst{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	font-family: sans-serif;
+	font-size: 19px;
+	text-align: center;
+}
+img {
+  border-radius: 50%;
+  text-align: center;
+}
+a:visited
+{
+   color: white;
+}
+a:hover
+{
+   color: red;
+}
+.message
+{
+	width: 300px;
+	height:150px;
+	min-height: 100px;
+	min-width: 200px;
+	max-height: 500px;
+	max-width: 400px;
+}

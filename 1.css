@@ -1,0 +1,63 @@
+.tekst{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+.tekst1
+{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+body {
+	background-color: #86E7EE;
+}
+th {
+  background-color: white;
+  color: black;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table {
+  border: 1px solid black;
+}
+table, th, td {
+  border: 1px solid black;
+}
+ul {
+  list-style-type: circle;
+}
+ol {
+  list-style-type: upper-roman;
+}
+a:link
+{
+   color: green;
+   text-decoration: none;
+   border-left: 1px solid white; 
+   border-bottom: 1px solid white;
+   width:90%; 
+   background-color: white;
+   display: block;
+}
+a:visited
+{
+   color: green;
+}
+a:hover
+{
+   color: blue;
+}
+.marginesy
+{
+	margin-top: 20 px;
+}
